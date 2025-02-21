@@ -1,0 +1,6 @@
+def kthValue(arr,k):
+    arr.sort()
+    return arr[k-1]
+arr=[4,6,2,3,1,9]
+kth=3
+print(kthValue(arr,kth))
